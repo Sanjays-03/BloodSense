@@ -34,6 +34,12 @@ Before you begin, ensure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/siddharths060/BloodSense.git
 cd fingerprint-blood-group-detection
+```
+
+### Step 2: Run the docker compose file
+
+```bash
+docker-compose up --build
 ```
