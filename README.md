@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://via.placeholder.com/200x200.png?text=BloodSense+Logo" alt="BloodSense Logo" width="200"/>
+  <img src="./Ouput_images/Blood_sense_logo.png" alt="BloodSense Logo" width="200"/>
   <h1>BloodSense: AI-Powered Fingerprint Blood Group Detection</h1>
   <p>
     <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
@@ -22,6 +22,9 @@
 - [Model Performance](#model-performance)
 - [Future Work](#future-work)
 - [Addressing Challenges](#addressing-challenges)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Overview
 
@@ -61,11 +64,6 @@ BloodSense follows a modern microservice architecture with three main components
 1. **Frontend**: Next.js application providing the user interface
 2. **Backend API**: FastAPI service handling requests and model inference
 3. **Deep Learning Model**: TensorFlow CNN model for blood group classification
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=System+Architecture+Diagram" alt="System Architecture" width="80%"/>
-  <p><em>Detailed architecture showing data flow between components</em></p>
-</div>
 
 ## Demo
 
@@ -127,11 +125,6 @@ npm run dev
 
 ## How It Works
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=BloodSense+Workflow" alt="BloodSense Workflow" width="80%"/>
-  <p><em>End-to-end workflow from fingerprint upload to blood group prediction</em></p>
-</div>
-
 ### Data Collection and Preprocessing
 
 - **Dataset**: Our model is trained on a comprehensive dataset of fingerprint images, organized by blood groups
@@ -159,11 +152,6 @@ model = Sequential([
 ])
 ```
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=CNN+Architecture" alt="CNN Model Architecture" width="80%"/>
-  <p><em>BloodSense CNN architecture visualization</em></p>
-</div>
-
 ### Prediction Process
 
 1. User uploads a fingerprint image through the web interface
@@ -182,8 +170,8 @@ The current model achieves a validation accuracy of approximately 86% on the tes
 - **F1 Score**: 84.9%
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Confusion+Matrix" alt="Confusion Matrix" width="80%"/>
-  <p><em>Confusion matrix showing the model's performance across different blood groups</em></p>
+  <img src="./Ouput_images/classification_report.jpeg" alt="Model Performance Metrics" width="80%"/>
+  <p><em>Classification report showing model performance metrics</em></p>
 </div>
 
 ## Future Work
@@ -196,11 +184,6 @@ We're constantly working to improve BloodSense. Planned enhancements include:
 - **Mobile Support**: Developing native mobile applications
 - **Database Integration**: Adding secure storage for users and prediction history
 - **Error Analysis**: Better handling of low-quality fingerprint images
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Future+Roadmap" alt="Future Development Roadmap" width="80%"/>
-  <p><em>Roadmap for future development and improvements</em></p>
-</div>
 
 ## Addressing Challenges
 
