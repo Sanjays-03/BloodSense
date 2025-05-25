@@ -220,8 +220,4 @@ Please ensure your code adheres to our coding standards and includes appropriate
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
 
-Siddharth S - [siddharths060@gmail.com](mailto:siddharths060@gmail.com)
-
-Project Link: [https://github.com/siddharths060/BloodSense](https://github.com/siddharths060/BloodSense)
